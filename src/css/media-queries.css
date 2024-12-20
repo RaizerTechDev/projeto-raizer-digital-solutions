@@ -1,0 +1,177 @@
+/* Estilo para dispositivos móveis (máx. 768px) */
+@media (max-width: 768px) {
+  .navbar {
+    background-image: url(../images/img-soluctions.gif);
+  }
+
+  .navbar-nav {
+    display: none; 
+    background-color: #567CAB; 
+  }
+  
+  .navbar-nav.show {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #567CAB;
+    padding: 10px;
+    width: 100%;
+  }
+
+  .navbar-toggler-icon {
+    display: block;
+  }
+
+  .navbar-toggler::before {
+    content: '\2630';
+    font-size: 30px;
+    color: #fff;
+  }
+
+  .navbar-toggler-icon {
+    display: block; /* Exibe o ícone do menu para telas menores */
+  }
+
+  .navbar-hero {
+    margin-left: -100px;
+    text-align: center; /* Centraliza o texto */
+  }
+
+.hero__logo {
+    margin-left: 80px;
+    transform: translateY(-95px); /* Move a logo para cima */
+    transition: transform 0.3s ease; /* Suaviza a animação */
+  }
+
+  .company-name {
+    margin-top: 95px;
+    margin-left: -97px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .hero__subtitle {
+    margin-top: 0px;
+    margin-left: 85px;
+    text-align: center;  
+  }
+
+  .hero__cta {   
+    margin-left: 280px;  
+  }
+  
+  #benefits h2, #features h2, #testimonials h2 {    
+    margin-top: -20px;
+    font-size: 45px;    
+  }
+
+  .card__body {
+    margin-top: 20px;
+  }
+
+  .card__text {
+    font-size: 14px;
+  }
+
+  .feature--desktop {
+    width: 50px;
+  }
+
+  .feature--icon {
+    height: 80px;
+    width: 80px;
+  }
+
+  #testimonials h2 {
+    font-size: 42px;
+  }
+
+  #testimonials .testimonial__image {
+    width: 80px;
+  }
+
+  .footer-container {
+    flex-direction: column; /* Organiza os itens em uma coluna */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    text-align: center;
+    margin-top: 80px;
+  }
+
+  .footer-left {
+    order: 1; /* Define a ordem */
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #contact {
+    order: 3; /* Define o "Fale Conosco" como o segundo item */
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .footer-right {
+    order: 2; /* Define o formulário como o terceiro item */
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .footer__logo {
+    width: 60px; /* Mantém a logo legível */  
+    margin-bottom: 10px; /* Espaçamento para separar da próxima seção */
+  }
+
+  .social-icons {
+    margin-top: 20px;
+  }
+
+  .form__contact {
+    font-size: 1.2rem; /* Define o tamanho da fonte legível */
+  }
+
+  .footer__contato {
+    font-size: 1.7rem; /* Ajusta o tamanho do texto */
+  }
+
+  .footer-text {
+    font-size: 1.1rem; /* Ajusta o texto dos contatos */
+  }
+
+  .footer__submit--button {
+    margin-top: -5px;
+    font-size: 0.9rem; /* Ajusta o tamanho do botão */
+    padding: 10px; /* Adiciona um preenchimento para melhorar a usabilidade */
+  }
+
+  .footer__copyright {
+    margin-top: -95px;
+    font-size: 0.9rem;
+    margin-right: 50px;
+  }
+} 
+
+@media (min-width: 900px) and (max-width:1440px) {
+  .footer__logo {
+    width: 90px; /* Mantém a logo legível */  
+    margin-bottom: 10px; /* Espaçamento para separar da próxima seção */
+  }
+
+  #contactForm {
+    margin-top: -25px;
+  }
+
+  .form__contact {
+    font-size: 1rem; 
+  }
+
+  .footer__submit--button {
+    margin-top: -5px;
+    font-size: 0.9rem; 
+    padding: 10px; 
+  }
+
+  .footer__copyright {
+    margin-top: -98px;
+    margin-right: 650px;
+  }
+} 

@@ -1,21 +1,21 @@
-# Módulo Desenvolvimento Front-end / Introdução ao framework de front-end Bootstrap
 
-[StackX](https://www.stackx.com.br)
-
-# Projeto-Landing-Page-StackX!!!
+ <div align="center">
+ 
+ # PROJETO RAIZERTECH | SOLUÇÔES INOVADORAS EM DESENVOLVIMENTO 
 
 <br>
 
- <div align="center">
-<img src="https://media.giphy.com/media/9TFBxN300KpCUI6sBD/giphy.gif" align="center" height="45" width="45">
+<img src="src/images/doc.png" alt="Imagem de Exemplo" height="45">
 
-[ ( Clique aqui e venha conhecer à Empresa `RRZTECH - SOLUTIONS!!!`) ](https://raizertechdev-landing.netlify.app/)
+[ ( Documentação Oficial `Projeto-RaizerTech`) ](https://raizertechdev-landing.netlify.app/)
+
+[ ( Clique aqui e venha conhecer à Empresa `RAIZERTECH!`) ](https://raizertechdev-landing.netlify.app/)
 
 <br>
 
 <div align="center">
   
-<img src= "https://media.giphy.com/media/3zSF3Gnr7cxMbi6WoP/giphy.gif" align="center" height="55" width="55"> [Demonstração-Landing Pages/Technology Service <img src= "https://media.giphy.com/media/E5DzZsofmgxc9wjbhX/giphy.gif" align="center" height="35" width="35">
+<img src= "https://media.giphy.com/media/3zSF3Gnr7cxMbi6WoP/giphy.gif" align="center" height="55" width="55"> [Demonstração-Projeto-RaizerTech <img src= "https://media.giphy.com/media/E5DzZsofmgxc9wjbhX/giphy.gif" align="center" height="35" width="35">
 
 <img height="480em" src="./assets/images/readme-apresntacao.gif"  align="center">
 
@@ -25,31 +25,46 @@
 
 <div align="left">
 
-## O que fazer?
+## Objetivo
+Desenvolver sites altamente personalizados e responsivos que combinem design inovador, funcionalidade intuitiva e otimização de desempenho, proporcionando experiências digitais excepcionais para os clientes.
 
-### 📌Planejamento:
 
-- Uma landing page usando Bootstrap pode envolver a promoção de um produto ou serviço. Antes de começar, pense em por que você está criando essa página e para qual público.
+## Estratégias
+1. Responsividade: Garantir a adaptabilidade em diferentes dispositivos.
+2. Inovação e Funcionalidade: Priorizar designs modernos e navegação intuitiva.
+3. Metodologias Ágeis: Reduzir prazos de entrega e adaptar-se às mudanças com flexibilidade.
+4. Colaboração: Manter os clientes no centro do processo de criação.
 
-### 📌Conteúdo:
-
-- Decida o que você quer colocar na página, como texto, imagens e formulários.
-
-### 📌Layout:
-
-- Escolha um design que pareça legal e organize de uma forma clara.
-
-### 📌Bootstrap:
-
-- Use o Bootstrap para ajudar a construir a página. Ele oferece muitas ferramentas úteis e facilita o trabalho.
-
-### 📌Lançamento e Ajustes:
-
-- Após finalizar, compartilhe a página na grupo do Discord.
 
 ---
 
-<img src="https://media.giphy.com/media/iT138SodaACo9LImgi/giphy.gif" align="center" height="75" width="75"> Tecnologias utilizadas no projeto:
+## Instalação das dependências com bash
+
+- Clone o repositório:
+```
+git clone https://github.com/seu-usuario/nome-do-repositorio.git
+```
+- Navegue até o diretório do projeto:
+```
+cd nome-do-repositorio
+```
+- Instale as dependência para o package.json:
+```
+npm init
+```
+
+<br>
+
+- Instalando pacotes para formatação
+```
+npm install --save-dev eslint eslint-config-prettier eslint-plugin-prettier prettier
+```
+
+<br>
+
+---
+
+## Tecnologias
 
 - HTML5 (Linguagem de marcação utilizada para a construção das páginas web).
 
@@ -69,15 +84,8 @@
 
 ---
 
-<img src="https://media.giphy.com/media/SS8CV2rQdlYNLtBCiF/giphy.gif" align="center" height="35" width="45"> Ferramenta utilizada no projeto:
 
-- [VsCode](https://code.visualstudio.com/download) (v1.80.1)
-
-<br>
-
----
-
-<img src="https://media.giphy.com/media/u2pmTWUi0MXjyrMaVj/giphy.gif" align="center" height="65" width="65"> Para rodar no `Front-End`:
+## Rodar `Front-End`:
 
 - No arquivo `index.html` vai clicar com o botão direito para digitar:
 
@@ -85,13 +93,7 @@
 Open With Live Server
 ```
 
-- Assim vai abrir no navegador `Landing Page - Technology Service!`.
-
----
-
-- Ou pelo `Deplopy Netlify`:
-
-[ ( Clique aqui e venha conhecer à Empresa `RRZTECH - SOLUTIONS!!!`) ](https://raizertechdev-landing.netlify.app/)
+- Assim vai abrir no navegador `RaizerTech | Soluções Inovadoras em Desenvolvimento Front-End!`.
 
 <br>
 
