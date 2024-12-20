@@ -1,0 +1,133 @@
+/* Estilos para a seção de benefícios */  
+#benefits {
+    background: linear-gradient(to bottom, #131727, #2B355A, #131727); 
+    padding: 40px 0;
+  }
+  
+  #benefits h2 {
+    color: #567CAB;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold; /* Define a espessura da fonte como negrito */
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px
+  }
+  
+  #benefits h3 {
+    font-weight: bold; /* Define a espessura da fonte como negrito */
+    font-size: 19px;
+    text-align: center;  
+    text-decoration: underline;
+  }
+  
+  .card__text { 
+    text-align: center;
+    color: #131727;
+  }
+  
+  #benefits .card {
+    border: none;
+    background: #567CAB;
+    font-weight: bold;
+    margin-top: 15px;
+    text-align: center; /* Centraliza o texto dentro do card */
+    padding: 20px; /* Adiciona espaçamento interno ao card */
+  }
+  
+  #benefits .card__title {
+    font-weight: bold;
+    font-size: 19px;
+    text-decoration: underline;
+  }
+  
+  #benefits .card__text { 
+    color: #131727;
+  }
+  
+  .feature--desktop, .feature--mobile {
+    width: 100%;
+    max-width: 80px; /* Limita o tamanho máximo */
+    height: auto;
+  }
+  
+  #features {
+    padding: 40px 0;
+    background-color: #567CAB;
+  
+  }
+  
+  #features h2 {
+    color: #131727;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  #features h3,
+  p {
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center; /* Garante que o texto fique centralizado */
+  }
+  
+  .feature--icon {
+    background-color: #e3e4e6;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .col-md-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .container {
+    text-align: center; /* Centraliza todo o conteúdo dentro do container */
+  }
+  
+  /* Adiciona centralização ao conteúdo da seção */
+  #testimonials {
+    background: linear-gradient(to bottom, #131727, #2B355A, #131727); 
+    text-align: center;
+    color: #fff;
+  }
+  
+  /* Adiciona centralização aos elementos dentro da coluna */
+  .testimonial {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    align-items: center;
+    text-align: center;  
+  }
+  
+  #testimonials h2 {
+    color: #567CAB;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold; /* Define a espessura da fonte como negrito */
+    font-size: 40px;
+    margin-top: 50px;
+  }
+  
+  .testimonial__image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+  }
+  .testimonial__name {
+    margin-top: 0.5rem; /* Adiciona espaçamento acima do nome do cliente */
+  }
+  
+  

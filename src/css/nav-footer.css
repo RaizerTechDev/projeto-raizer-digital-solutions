@@ -1,0 +1,252 @@
+/* Estilos gerais */
+body {
+  font-family: "Poppins", sans-serif; /* Define a família de fontes */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/img-soluctions.gif);
+  background-size: cover; 
+  padding: 0 15px;
+}
+
+.navbar-nav {
+    padding: 10px 40px;
+    border: 2px solid #D9D9D924;
+    border-radius: 35px;
+    background: linear-gradient(to bottom, #131727, #2B355A, #131727);
+    flex-direction: row; /* Alinha os itens horizontalmente */
+    align-items: center;
+    position: fixed;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%); /* Centraliza horizontalmente */
+    z-index: 10;
+    background-color: transparent; /* Torna o fundo transparente */
+    box-shadow: none; /* Remove a sombra, se houver */
+  }
+
+ .fixed-menu {
+  position: fixed;
+  display: flex;
+
+}
+
+.navbar-toggler {
+  border: none;
+  background-color: transparent;
+}
+
+.nav--item {
+  margin-left: 10px;
+  padding: 10px; 
+}
+
+.nav--link {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none; /* Remove o sublinhado dos links */
+  font-size:20px;
+}
+
+.nav--link:hover { 
+  color: #ee90cd;
+}
+
+/* Estilo para o conteúdo hero dentro da navegação */
+.navbar-hero {
+  margin-top: 80px;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.hero-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 180px;
+}
+
+.hero__logo {
+  width: 90px;
+}
+
+.hero__logo:hover {
+  transform: scale(1.1); /* Aumenta o elemento em 10% ao passar o mouse */
+}
+
+.company-name {
+  font-weight: bold;
+  font-size: 35px;
+  color: #fff;
+}
+
+.hero__subtitle {  
+  padding: 10px 0;
+  color: #fff;
+  font-weight: bold;
+  font-size: 25px;
+  text-decoration: none;
+  margin-top: -35px;
+  margin-left: 100px;
+}
+
+.hero__subtitle span {
+  color: #7db3f6;
+}
+
+.hero__cta {
+  background-color: #567CAB;
+  margin-top: 30px;
+  font-weight: bold;  
+  margin-left: 380px;  
+}
+
+.navbar-hero a:hover {
+  color: #131727;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #567CAB;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between; /* Alinha o conteúdo à esquerda e à direita */
+  align-items: center;
+  gap: 20px;
+}
+
+.footer__logo {
+  width: 140px; /* Tamanho para telas grandes */
+  height: auto;
+  margin-top: 25px;  
+}
+
+.footer__logo:hover {
+  transform: scale(1.1); /* Aumenta o elemento em 10% ao passar o mouse */
+}
+
+
+.footer-left {
+  display: flex;
+  align-items: center; 
+  margin-left: 45px;
+  margin-top: -80px;
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -50px;
+}
+
+.footer__contato {
+  font-weight: bold;
+  font-size: 25px;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.footer-text{ 
+  margin-top: 10px;
+  font-weight: bold;
+  color:#242424;
+}
+
+.footer-text:hover{
+  color: #ee90cd;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center; /* Centraliza os ícones horizontalmente */
+  align-items: center; /* Alinha os ícones verticalmente */
+  gap: 15px; /* Espaçamento entre os ícones */  
+}
+
+.social-icons__link {
+  color: #ee90cd;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.social-icons__link:hover {
+  color: #242424;
+}
+
+.footer-copyright {
+  margin-top: 10px;   
+}
+
+.company-name__black {
+  font-weight: bold;
+  font-size: 1.4rem;
+  margin-left: 12px;
+  color: #131727;
+  font-weight: bold; 
+   text-transform: uppercase;
+}
+
+.form__contact {
+  font-weight: 600; /* Define a espessura da fonte como 600 (semi-negrito) */
+  font-size: 1.1rem; /* Define o tamanho da fonte como 1.1 vezes a altura da fonte atual */
+  text-transform: uppercase; /* Converte o texto para maiúsculas */
+  color: hsl(0, 0%, 8%); /* Define a cor do texto como hsl(0, 0%, 8%) */
+  padding: 0.7rem 1.6rem 1.4rem 2.4rem; /* Adiciona preenchimento com os valores especificados */
+  border-radius: 2px; /* Define o raio da borda como 2 pixels */
+  background-color: transparent; /* Define o fundo como transparente */
+  border: none; /* Remove a borda */
+  border-bottom: 2px solid hsl(0, 0%, 13%); /* Adiciona uma borda inferior de 2 pixels sólidos na cor hsl(0, 0%, 13%) */
+  width: 80%; /* Define a largura como 80% */
+  display: block; /* Define o elemento como bloco */
+  transition: all 300ms ease-in-out; /* Adiciona uma transição de 300 milissegundos com efeito de entrada e saída para todas as propriedades */
+  -webkit-transition: all 300ms ease-in-out; /* Adiciona uma transição de 300 milissegundos com efeito de entrada e saída para todas as propriedades (para navegadores WebKit) */
+  margin-top: 3.5rem; /* Adiciona margem superior de 5 vezes a altura da fonte atual */
+  margin-left: 0; /* Remove a margem esquerda */
+  outline: none; /* Remove o contorno ao receber foco */
+  /*Remove a borda do input*/
+}
+
+.form__contact::placeholder {
+  color: #fff; 
+}
+
+.footer__submit--button {
+  width: 80%; /* Define a largura como 80% */
+  font-size: 0.9rem; /* Define o tamanho da fonte como 1.1 vezes a altura da fonte atual */
+  font-weight: bold; /* Define a espessura da fonte como negrito */
+  color: hsl(0, 0%, 13%); /* Define a cor do texto como hsl(0, 0%, 13%) */
+  border: none; /* Remove a borda */
+  background-color: transparent; /* Define o fundo como transparente */
+  cursor: pointer; /* Altera o cursor para indicar um link */
+  float: inline-end; /* Move o elemento para a extremidade inline oposta */
+  text-decoration: underline 5px solid #fff; 
+  margin-top: 2rem; /* Adiciona margem superior de 2 vezes a altura da fonte atual */
+  margin-bottom: 5rem; /* Adiciona margem inferior de 5 vezes a altura da fonte atual */
+  letter-spacing: 0.229rem; /* Adiciona espaçamento entre caracteres de 0.229 vezes a altura da fonte atual */
+  line-height: 2.6rem; /* Define a altura da linha como 2.6 vezes a altura da fonte atual */
+  padding-bottom: 0.01rem; /* Adiciona preenchimento inferior de 0.01 vezes a altura da fonte atual */
+}
+
+.footer__submit--button:hover {
+  color: #3381f3; /* Altera a cor do texto ao passar o mouse para #3381f3 */
+}
+
+.footer__button--animation {
+  width: 60px; /* Define a largura como 60 pixels */
+}
+
