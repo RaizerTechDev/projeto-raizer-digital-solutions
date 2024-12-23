@@ -94,7 +94,7 @@
     flex-direction: column; /* Organiza os itens em uma coluna */
     align-items: center; /* Centraliza os itens horizontalmente */
     text-align: center;
-    margin-top: 80px;
+
   }
 
   .footer-left {
@@ -119,6 +119,11 @@
   .footer__logo {
     width: 60px; /* Mantém a logo legível */  
     margin-bottom: 10px; /* Espaçamento para separar da próxima seção */
+    margin-top: 90px;
+  }
+
+  .company-name__black {
+    margin-top: 90px;
   }
 
   .social-icons {
@@ -170,8 +175,5 @@
     padding: 10px; 
   }
 
-  .footer__copyright {
-    margin-top: -98px;
-    margin-right: 650px;
-  }
+ 
 } 
