@@ -9,7 +9,7 @@
 
 [ ( Documentação Oficial `Projeto-RaizerTech`) ](https://raizertechdev-landing.netlify.app/)
 
-[ ( Clique aqui e venha conhecer à Empresa `RAIZERTECH!`) ](https://raizertechdev-landing.netlify.app/)
+[ ( Clique aqui e venha conhecer à Empresa `RAIZERTECH!`) ](https://github.com/RaizerTechDev/projeto-raizer-digital-solutions/blob/master/Documentation.md)
 
 <br>
 
