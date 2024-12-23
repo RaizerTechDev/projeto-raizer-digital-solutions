@@ -1,15 +1,14 @@
-
  <div align="center">
  
- # PROJETO RAIZERTECH | SOLUÇÕES INOVADORAS EM DESENVOLVIMENTO 
+ # PROJETO RAIZERTECH | SOLUÇÕES INOVADORAS EM DESENVOLVIMENTO
 
 <br>
 
 <img src="src/images/doc.png" alt="Imagem de Exemplo" height="45">
 
-[ ( Documentação Oficial `Projeto-RaizerTech`) ](https://raizertechdev-landing.netlify.app/)
+[ ( Documentação Oficial `Projeto-RaizerTech`) ](https://github.com/RaizerTechDev/projeto-raizer-digital-solutions/blob/master/Documentation.md)
 
-[ ( Clique aqui e venha conhecer à Empresa `RAIZERTECH!`) ](https://github.com/RaizerTechDev/projeto-raizer-digital-solutions/blob/master/Documentation.md)
+[ ( Clique aqui e venha conhecer à Empresa `RAIZERTECH!`) ](https://raizertechsolutions.netlify.app/)
 
 <br>
 
@@ -26,29 +25,34 @@
 <div align="left">
 
 ## Objetivo
+
 Desenvolver sites altamente personalizados e responsivos que combinem design inovador, funcionalidade intuitiva e otimização de desempenho, proporcionando experiências digitais excepcionais para os clientes.
 
-
 ## Estratégias
+
 1. Responsividade: Garantir a adaptabilidade em diferentes dispositivos.
 2. Inovação e Funcionalidade: Priorizar designs modernos e navegação intuitiva.
 3. Metodologias Ágeis: Reduzir prazos de entrega e adaptar-se às mudanças com flexibilidade.
 4. Colaboração: Manter os clientes no centro do processo de criação.
-
 
 ---
 
 ## Instalação das dependências com bash
 
 - Clone o repositório:
+
 ```
 git clone https://github.com/seu-usuario/nome-do-repositorio.git
 ```
+
 - Navegue até o diretório do projeto:
+
 ```
 cd nome-do-repositorio
 ```
+
 - Instale as dependência para o package.json:
+
 ```
 npm init
 ```
@@ -56,6 +60,7 @@ npm init
 <br>
 
 - Instalando pacotes para formatação
+
 ```
 npm install --save-dev eslint eslint-config-prettier eslint-plugin-prettier prettier
 ```
@@ -83,7 +88,6 @@ npm install --save-dev eslint eslint-config-prettier eslint-plugin-prettier pret
 <br>
 
 ---
-
 
 ## Rodar `Front-End`:
 
