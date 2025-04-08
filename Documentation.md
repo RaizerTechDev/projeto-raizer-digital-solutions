@@ -1,6 +1,6 @@
 # Documentação dos Códigos HTML | CSS | JS - RaizerTech
 
-Este documento descreve um pequeno código da estrutura do código HTML utilizado no projeto RaizerTech. Abaixo está o índice para facilitar a navegação.
+Este documento descreve um pequeno código da estrutura HTML, CSS e JS utilizado no projeto RaizerTech. Abaixo está o índice para facilitar a navegação.
 
 ## Índice
 
@@ -24,7 +24,7 @@ Este documento descreve um pequeno código da estrutura do código HTML utilizad
 
 ---
 
-## 1. <i>Estrutura Básica HTML</i>
+## 1. Estrutura Básica HTML
 
 ### 1.1 Navegação
 
